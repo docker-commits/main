@@ -1,0 +1,62 @@
+.cardsecond__chipColor {
+  background-color: green !important;
+  color: white !important;
+}
+.secondcard__cardContent {
+  display: flex;
+  flex-direction: column;
+}
+.secondcard__headerRight {
+  color: gray;
+}
+.card__headerLeft-left {
+  margin-right: 20px;
+}
+.card__headerLeft-left > h1 {
+  font-size: 16px;
+}
+.secondcard__headerLeft {
+  display: flex;
+  justify-content: space-evenly;
+}
+.secondbody__footer > p > {
+  display: flex;
+}
+/* .label__style.ui.horizontal.label {
+  background-color: red !important;
+}
+
+.label__style.ui .second .ui.horizontal.label {
+  background-color: seagreen;
+} */
+
+.secondcard__body {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  justify-content: space-between;
+}
+.secondcard__card {
+  max-width: 70% !important;
+  margin-top: 20px;
+  margin-left: 110px;
+  justify-content: center;
+  align-items: center;
+  /* display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between; */
+}
+.cardsecond {
+  justify-content: center;
+}
+.id {
+  font-weight: bolder;
+}
+@media (max-width: 541px) {
+  .secondcard__card {
+    margin-left: 0px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}

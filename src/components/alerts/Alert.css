@@ -1,0 +1,36 @@
+.alert__card {
+  /* height: 150px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*  */
+  display: block;
+  background-color: whitesmoke;
+
+  /* display: inline-block; */
+  transition: transform 108ms ease-in-out;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.4);
+}
+.alert__card .MuiPaper-rounded {
+  border-radius: 0px !important;
+}
+.card__title > h1 {
+  font-size: medium;
+  font-weight: 900;
+}
+.alert__card:hover {
+  transform: scale(1.02);
+  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.3);
+}
+.alert {
+  padding: 20px;
+}
+.card__description > p > span {
+  font-weight: 600;
+}
+.alert__cardBody {
+  display: flex;
+  flex-direction: column;
+}
+/* .alerrt__card .MuiCardContent-root {
+  justify-content: space-between !important;
+} */

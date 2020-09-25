@@ -1,0 +1,46 @@
+.header {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+.header__left > .MuiSvgIcon-root {
+  font-size: 35px;
+  color: #2380c6;
+}
+
+.header__right > button {
+  background-color: #2380c6;
+  border-radius: 10px;
+  font-size: 14px;
+  color: white;
+  padding: 6px 12px;
+
+  width: 150px;
+  /* border: none; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header__right > button:focus {
+  outline: none;
+}
+.headerdrpdown__style {
+  padding: 5px 5px;
+  color: white;
+
+  background-color: #2380c6;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+@media (max-width: 371px) {
+  .header__right > button {
+    padding: 5px 5px;
+    width: auto;
+  }
+  .headerdrpdown__style {
+    padding: 3px 3px;
+    width: auto;
+  }
+}

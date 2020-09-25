@@ -1,0 +1,21 @@
+.add__memberHeader {
+  text-align: center;
+  padding-top: 30px;
+  color: gray;
+}
+.add__memberBody {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 45px; */
+  justify-content: space-evenly;
+  margin-top: 50px;
+  align-items: center;
+}
+.add__memberFooter {
+  text-align: center;
+  margin-top: 10px;
+}
+.add__memberFooter .MuiButton-root {
+  background-color: #1377e5;
+  color: white;
+}

@@ -1,0 +1,88 @@
+.create__issueHeader {
+  text-align: center;
+  padding-top: 30px;
+  color: gray;
+}
+.create__issueFooter {
+  text-align: center;
+  margin-top: 50px;
+}
+.create__issueFooter .MuiButton-root {
+  background-color: #1377e5;
+  color: white;
+  /* max-width: 100% !important; */
+}
+/* .create__issueFooter > button {
+  background-color: #1377e5;
+  color: white;
+  width: 100px;
+  font-size: smaller;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+} */
+.category__tag {
+  padding: 8px 12px;
+  color: #333333;
+  background-color: white;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 20px;
+  width: 200%;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: emoji;
+  /* replacing dropdown icon */
+}
+.category__tag:focus,
+.category__tag:hover {
+  outline: none;
+  border: 1px solid #dddddd;
+}
+.category__tag > option {
+  background: #ffffff;
+  outline: none;
+}
+button {
+  background-color: #1377e5;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+/* .issue__header {
+  padding: 13px !important;
+  max-width: 160px !important;
+} */
+.create__issueBody > button {
+  margin-top: 20px;
+}
+.create__issueBody {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 45px; */
+  justify-content: space-evenly;
+  /* margin-top: 50px;
+  align-items: center; */
+}
+.create__form > input {
+  width: 390px;
+  padding: 21px;
+  margin-bottom: 10px;
+  border-color: lightgray;
+}
+.create__form {
+  display: flex;
+
+  flex-direction: column;
+}
+@media (max-width: 410px) {
+  .create__issue {
+    align-items: center;
+    margin-left: 2px;
+  }
+  .create__form > input {
+    max-width: 300px !important;
+  }
+}

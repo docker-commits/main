@@ -1,0 +1,100 @@
+.management {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+.management__header {
+  display: flex;
+  justify-content: space-between;
+}
+.management__subHeaderMain {
+  display: flex;
+  justify-content: space-between !important;
+  padding-bottom: 20px;
+}
+.management__headerLeft > {
+}
+
+.management__subHeader > span {
+  /* padding: 5px; */
+  font-family: auto;
+}
+.management__card {
+}
+.management__suneditor {
+  padding: 20px !important;
+}
+.button__styles {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.management__bodyFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.management__desc {
+  /* display: flex;
+  padding-bottom: 20px; */
+}
+.management__desc > p {
+  padding-right: 5px;
+  /* flex: 1; */
+}
+.management__bodyFooter > p {
+  padding: 10px;
+}
+.management__body {
+  /* padding: 20px; */
+}
+.management__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button__styles {
+  margin-bottom: 20px !important;
+}
+.management__headerRight {
+  display: flex;
+  flex-direction: column;
+}
+/* .management__headerLeft > p {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+} */
+
+@media (max-width: 620px) {
+  .management__headerLeft > p {
+    flex-direction: column;
+  }
+}
+@media (max-width: 376px) {
+  .management__headerRight {
+    margin-top: 50px;
+  }
+  .management__headerLeft > h1 {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 415px) {
+  .subheader--create {
+    display: flex;
+  }
+  .subheader--create .ui.teal.label {
+    font-size: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .management {
+    /* padding-left: 20px;
+    padding-right: 20;
+    padding-top: 20px; */
+    padding: 20px;
+  }
+}
